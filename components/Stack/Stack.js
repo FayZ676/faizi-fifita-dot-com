@@ -6,7 +6,7 @@ import Supabase from "../../public/logos/supabase.svg";
 import Figma from "../../public/logos/figma.svg";
 import TailwindCSS from "../../public/logos/tailwindcss.svg";
 import GoogleCloud from "../../public/logos/googlecloud.svg";
-import Docker from "../../public/logos/Docker.svg";
+import Docker from "../../public/logos/docker.svg";
 import FastAPI from "../../public/logos/fastapi.svg";
 import Next from "../../public/logos/next.svg";
 
