@@ -1,0 +1,46 @@
+.fun-facts-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.fun-facts-card-content {
+  display: grid;
+  gap: 1rem;
+  background-color: #1d1d1d;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.fun-facts-header {
+  color: #a3a3a3;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.fun-facts-body {
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.refresh-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #a3a3a3;
+  margin-left: auto;
+  background-color: transparent;
+  border: 1px solid #a3a3a3;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.refresh-button:hover {
+  cursor: pointer;
+  background-color: #424242;
+}

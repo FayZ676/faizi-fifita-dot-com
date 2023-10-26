@@ -1,0 +1,10 @@
+.divider {
+  display: flex;
+  justify-content: center;
+}
+
+.fading-line {
+  width: 80%;
+  height: 1px; /* Increase the height for a thicker line */
+  background: linear-gradient(90deg, transparent, #595959, transparent);
+}

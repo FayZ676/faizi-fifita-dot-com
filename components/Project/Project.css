@@ -1,0 +1,54 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid #595959;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+}
+
+.project.main {
+  gap: 0.8rem;
+  padding: 1.5rem;
+}
+
+.project:hover {
+  background-color: #1d1d1d;
+  cursor: pointer;
+}
+
+.date-and-status {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.project.main .date-and-status {
+  font-size: 0.85rem;
+}
+
+.date {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.project.main .title {
+  font-size: 2rem;
+}
+
+.description {
+  color: #b0b0b0;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.project.main .description {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}

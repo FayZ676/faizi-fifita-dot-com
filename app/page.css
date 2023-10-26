@@ -1,0 +1,52 @@
+.main-content {
+  display: grid;
+  gap: 5rem;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  /* margin-top: 5rem; */
+}
+
+.intro {
+  display: grid;
+  gap: 1rem;
+}
+
+.header {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subheader {
+  color: #c6c6c6;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.section {
+  display: grid;
+  gap: 2rem;
+}
+
+.featured-projects {
+  display: grid;
+  gap: 1rem;
+}
+
+.flex-row {
+  display: flex;
+}
+
+@media (min-width: 800px) {
+  .about {
+    grid-template-columns: 1fr 1fr;
+  }
+}

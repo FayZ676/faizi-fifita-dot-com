@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-icon {
+  width: 35px;
+  height: auto;
+}
+
+.page-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link-text {
+  color: #b0b0b0;
+}

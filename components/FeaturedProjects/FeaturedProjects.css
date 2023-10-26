@@ -1,0 +1,18 @@
+.featured-projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.featured-projects-grid .main {
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-inline: 0;
+}
+
+@media (min-width: 800px) {
+  .featured-projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

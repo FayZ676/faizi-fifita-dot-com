@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  color: white;
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.page-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link-text {
+  color: #b0b0b0;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-icon {
+  width: 35px;
+  height: auto;
+}
+
+.toggle-button {
+  display: none;
+  background: none;
+  border: none;
+  color: inherit;
+}
+
+.menu-icon {
+  height: 30px;
+  width: auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+  background-color: #1d1d1d;
+  border: 1px solid #595959;
+}
+
+@media (max-width: 800px) {
+  .navbar.menu-open {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .toggle-button {
+    display: block;
+    grid-column-end: 3;
+    grid-row-end: 2;
+    margin-left: auto;
+  }
+
+  .navbar-links {
+    display: none;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: auto;
+  }
+
+  .navbar-links.menu-open {
+    display: flex;
+  }
+}

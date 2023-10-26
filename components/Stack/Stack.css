@@ -1,0 +1,19 @@
+.logo-group {
+  background-color: #1d1d1d;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+}
+
+.huggingface {
+  height: 35px;
+  width: auto;
+}
