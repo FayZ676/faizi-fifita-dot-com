@@ -25,12 +25,12 @@ export default async function Home() {
               <h2 className="header">
                 Hey there,
                 <br />
-                Im glad youre here 🥳
+                I&apos;m glad you&apos;re here 🥳
               </h2>
               <p className="subheader">
-                Im Faizi, a full-stack software developer from Oregon focussed
-                on building open source, well designed products that make my
-                life easier.
+                I&apos;m Faizi, a full-stack software developer from Oregon
+                focussed on building open source, well designed products that
+                make my life easier.
               </p>
             </div>
             <FunFactsCard facts={facts} />
