@@ -41,12 +41,12 @@ export default function Navbar() {
         </ul>
         <ul id="navbar-item" className="socials">
           <li className="social-icon">
-            <Link href="#">
+            <Link href="https://github.com/FayZ676">
               <AiFillGithub className="social-icon" />
             </Link>
           </li>
           <li className="social-icon">
-            <Link href="#">
+            <Link href="https://www.linkedin.com/in/faizi-fifita/">
               <AiFillLinkedin className="social-icon" />
             </Link>
           </li>

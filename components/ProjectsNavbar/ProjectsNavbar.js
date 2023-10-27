@@ -7,10 +7,10 @@ export default function ProjectsNavbar() {
   return (
     <nav className="navbar">
       <div className="socials">
-        <Link href="#">
+        <Link href="https://github.com/FayZ676">
           <AiFillGithub className="social-icon" />
         </Link>
-        <Link href="#">
+        <Link href="https://www.linkedin.com/in/faizi-fifita/">
           <AiFillLinkedin className="social-icon" />
         </Link>
       </div>
