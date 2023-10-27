@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className={`navbar-links ${isMenuOpen ? "menu-open" : ""}`}>
         <ul id="navbar-item" className="page-links">
           <li className="link-text">
-            <Link href="#featuredProjects" className="link-text">
+            <Link href="/projects" className="link-text">
               Projects
             </Link>
           </li>

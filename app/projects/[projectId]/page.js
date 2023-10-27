@@ -29,7 +29,7 @@ export default async function Page({ params }) {
   const formattedEndDate = formatDate(project.endDate);
 
   return (
-    <main>
+    <main className="main">
       <ProjectNavbar />
       <section className="section-grid">
         <div className="header-grid">

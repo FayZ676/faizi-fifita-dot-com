@@ -1,3 +1,7 @@
+.main {
+  margin-inline: 1rem;
+}
+
 .section-grid {
   margin-top: 3rem;
   display: grid;
