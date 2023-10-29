@@ -30,7 +30,7 @@ export default async function Home() {
               <p className="subheader">
                 I&apos;m Faizi, a full-stack software developer from Oregon
                 focussed on building open source, well designed products that
-                make my life easier.
+                make life easier.
               </p>
             </div>
             <FunFactsCard facts={facts} />
