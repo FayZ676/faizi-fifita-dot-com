@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import Image from "next/image";
 import "./Stack.css";
 import Huggingface from "../../public/logos/huggingface.svg";
@@ -12,19 +14,27 @@ import Next from "../../public/logos/next.svg";
 
 export default function Stack() {
   return (
-    <div className="logo-group">
-      <Image
-        className="logo huggingface"
-        src={Huggingface}
-        alt="Hugging Face Logo"
-      />
-      <Image className="logo" src={Supabase} alt="Supabase Logo" />
-      <Image className="logo" src={Figma} alt="Figma Logo" />
-      <Image className="logo" src={TailwindCSS} alt="TailwindCSS Logo" />
-      <Image className="logo" src={GoogleCloud} alt="Google Cloud Logo" />
-      <Image className="logo" src={Docker} alt="Docker Logo" />
-      <Image className="logo" src={FastAPI} alt="Fast API Logo" />
-      <Image className="logo" src={Next} alt="Next Logo" />
+    <div className="logos">
+      <div className="logos-slide">
+        <Image className="logo" src={Huggingface} alt="Hugging Face Logo" />
+        <Image className="logo" src={Supabase} alt="Supabase Logo" />
+        <Image className="logo" src={Figma} alt="Figma Logo" />
+        <Image className="logo" src={TailwindCSS} alt="TailwindCSS Logo" />
+        <Image className="logo" src={GoogleCloud} alt="Google Cloud Logo" />
+        <Image className="logo" src={Docker} alt="Docker Logo" />
+        <Image className="logo" src={FastAPI} alt="Fast API Logo" />
+        <Image className="logo" src={Next} alt="Next Logo" />
+      </div>
+      <div className="logos-slide">
+        <Image className="logo" src={Huggingface} alt="Hugging Face Logo" />
+        <Image className="logo" src={Supabase} alt="Supabase Logo" />
+        <Image className="logo" src={Figma} alt="Figma Logo" />
+        <Image className="logo" src={TailwindCSS} alt="TailwindCSS Logo" />
+        <Image className="logo" src={GoogleCloud} alt="Google Cloud Logo" />
+        <Image className="logo" src={Docker} alt="Docker Logo" />
+        <Image className="logo" src={FastAPI} alt="Fast API Logo" />
+        <Image className="logo" src={Next} alt="Next Logo" />
+      </div>
     </div>
   );
 }
